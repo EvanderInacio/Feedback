@@ -4,7 +4,7 @@ import { Popover } from '@headlessui/react'
 export function Widget() {
 
   return (
-    <Popover className="absolute bottom-5 right-5">
+    <Popover className="fixed bottom-5 right-5">
       <Popover.Panel>Hello world</Popover.Panel>
 
       <Popover.Button

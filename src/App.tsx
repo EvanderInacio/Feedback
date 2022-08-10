@@ -1,7 +1,11 @@
+import { Home } from "./components/home/Home";
 import { Widget } from "./components/Widget";
 
 export function App() {
   return (
-    <Widget />
+    <>
+      <Home />
+      <Widget />
+    </>
   )
 }
