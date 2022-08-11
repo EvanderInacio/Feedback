@@ -2,7 +2,7 @@ import Ghost from "../../assets/ghost-img.png"
 
 export function Home() {
   return (
-    <div className="flex flex-col justify-center items-center ml-4 lg:grid grid-flow-col gap-16 mt-20">
+    <div className="flex flex-col justify-center items-center ml-4 md:grid grid-flow-col gap-16 md:mt-20">
       <div>
         <h1 className="text-purple-500 font-bold text-7xl mb-5 lg:text-9xl" >
           404<span>...</span>
@@ -15,7 +15,7 @@ export function Home() {
           <p>A página que você requisitou não foi encontrada.</p>
         </div>
           <button className="p-4 bg-violet-700 text-white rounded lg:mt-8 hover:bg-violet-900">
-            RETORNAR À HOME
+            <a href="https://github.com/EvanderInacio/Feedback" target="_blank">ACESSAR O GITHUB</a>
           </button>  
       </div>
       <div className="w-56 mt-8 lg:w-96 ">
