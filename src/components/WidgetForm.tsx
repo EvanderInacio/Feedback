@@ -54,9 +54,9 @@ export function WidgetForm() {
       </div>
 
       <footer className="text-base text-neutral-400">
-        Feito com <span className="text-violet-600">♥</span> por{' '}
+        Feito com <span className="text-purple-500">♥</span> por{' '}
         <a
-          className="text-green-500   hover:text-green-600"
+          className=" text-teal-400 hover:text-teal-500 font-semibold"
           href="https://www.evanderinacio.com/"
           target="_blank"
         >
