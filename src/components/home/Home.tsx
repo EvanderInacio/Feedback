@@ -14,7 +14,7 @@ export function Home() {
           <p>Acho que você chegou ao limite.</p>
           <p>A página que você requisitou não foi encontrada.</p>
         </div>
-          <button className="p-4 bg-violet-700 text-white rounded lg:mt-8 hover:bg-violet-900">
+          <button className="p-4 bg-violet-700 text-white rounded lg:mt-8 hover:bg-violet-900 transition-colors">
             <a href="https://github.com/EvanderInacio/Feedback" target="_blank">
               ACESSAR PÁGINA DO PROJETO
             </a>
