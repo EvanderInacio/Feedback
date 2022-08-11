@@ -4,28 +4,27 @@ import bugImage from '../assets/bug.svg'
 import ideaImage from '../assets/idea.svg'
 import thoughtImage from '../assets/thought.svg'
 
-
 const feedBackTypes = {
   BUG: {
     title: 'Problema',
     image: {
       source: bugImage,
-      alt: 'Imagem de um inseto',
-    },
+      alt: 'Imagem de um inseto'
+    }
   },
   IDEA: {
     title: 'Ideia',
     image: {
       source: ideaImage,
-      alt: 'Imagem de uma lâmpada',
-    },
+      alt: 'Imagem de uma lâmpada'
+    }
   },
   OTHER: {
     title: 'Outro',
     image: {
       source: thoughtImage,
-      alt: 'Imagem de um balão de pensamento',
-    },
+      alt: 'Imagem de um balão de pensamento'
+    }
   }
 }
 
@@ -41,16 +40,14 @@ export function WidgetForm() {
       </header>
 
       <div className="flex py-8 gap-2 w-full">
-        { Object.entries(feedBackTypes).map(([key, value]) => {
+        {Object.entries(feedBackTypes).map(([key, value]) => {
           return (
-            <button
-              className="bg-zinc-800 rounded-lg py-5 w-24 flex-1 flex flex-col items-center gap-2 border-2 border-transparent text-slate-100 hover:border-brand-500 focus:border-brand-500 focus:outline-none"
-            >
+            <button className="bg-zinc-800 rounded-lg py-5 w-24 flex-1 flex flex-col items-center gap-2 border-2 border-transparent text-slate-100 hover:border-brand-500 focus:border-brand-500 focus:outline-none">
               <img src={value.image.source} alt={value.image.alt} />
               <span>{value.title}</span>
             </button>
           )
-        }) }
+        })}
       </div>
 
       <footer className="text-base text-neutral-400">

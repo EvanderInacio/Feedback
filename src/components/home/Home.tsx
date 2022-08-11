@@ -15,7 +15,9 @@ export function Home() {
           <p>A página que você requisitou não foi encontrada.</p>
         </div>
           <button className="p-4 bg-violet-700 text-white rounded lg:mt-8 hover:bg-violet-900">
-            <a href="https://github.com/EvanderInacio/Feedback" target="_blank">ACESSAR O GITHUB</a>
+            <a href="https://github.com/EvanderInacio/Feedback" target="_blank">
+              ACESSAR PÁGINA DO PROJETO
+            </a>
           </button>  
       </div>
       <div className="w-56 mt-8 lg:w-96 ">
