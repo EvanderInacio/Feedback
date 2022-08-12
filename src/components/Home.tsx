@@ -1,4 +1,4 @@
-import Ghost from "../../assets/ghost-img.png"
+import Ghost from "../assets/ghost-img.png"
 
 export function Home() {
   return (
