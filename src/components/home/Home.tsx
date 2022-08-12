@@ -5,7 +5,7 @@ export function Home() {
     <div className="flex flex-col justify-center items-center ml-4 md:grid grid-flow-col gap-16 md:mt-20">
       <div>
         <h1 className="text-purple-500 font-bold text-7xl mb-5 lg:text-9xl" >
-          404<span>...</span>
+          404...
         </h1>
         <h2 className="text-green-400 font-semibold text-3xl mb-8 lg:mb-10">
           Repito, 404. Câmbio!
