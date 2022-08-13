@@ -8,6 +8,8 @@
 
 Website para envio de feedback sobre um problema, uma ideia ou outro.
 
+- site final: [Feedback](https://feedback-black.vercel.app/) 
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
