@@ -41,7 +41,6 @@ export function FeedbackContentStep({
     <>
       <header>
         <button 
-
           type="button" 
           className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
           onClick={onFeedbackRestartRequested}
