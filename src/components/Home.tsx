@@ -21,7 +21,7 @@ export function Home() {
           </button>  
       </div>
       <div className="w-56 mt-8 lg:w-96 ">
-        <img className="animate-bounce"
+        <img 
          src={Ghost} alt="Fantasma" />
       </div>
     </div>
